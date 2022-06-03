@@ -106,7 +106,7 @@ margin-top: 0px;
 
 }
 @media (max-width:320px){
- 
+
 .cuerpo2{
 
   font-family: 'Quicksand', sans-serif;
@@ -128,7 +128,7 @@ margin-top: 0px;
 .precio{
   margin-left: -20px;
 }
-
+}
 #scroll {
     position:fixed;
     bottom:10px;
