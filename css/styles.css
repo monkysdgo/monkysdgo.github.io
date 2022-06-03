@@ -90,9 +90,9 @@ width: 100%;
   color:#121D25;
 z-index: -1;
 margin-top: 0px;
-
   font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
+
 
 
 }
@@ -102,6 +102,26 @@ margin-top: 0px;
   font-family: 'Quicksand', sans-serif;
   font-size: 13px;
 
+
+
+}
+@media (max-width:320px){
+ 
+.cuerpo2{
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
+
+}
+.precio2{
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+
+}
+.cuerpo3{
+
+  font-size: 17px;
 
 }
 
