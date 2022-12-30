@@ -5,7 +5,13 @@
   overflow-x: hidden;
     scrollbar-color: yellow #800080;
 }
+.desactivado{
+    margin-top: 320px;
+  font-size: 35px;
 
+
+
+}
 p{
   margin-bottom: 0px;
   margin-left: : 0px;
