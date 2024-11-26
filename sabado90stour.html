@@ -17,15 +17,19 @@
    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Paytone+One&family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Archivo+Black&family=Candal&family=Fira+Sans+Extra+Condensed:wght@300&family=Fredoka+One&family=Lilita+One&family=Mitr:wght@300&family=Niconne&family=Oleo+Script+Swash+Caps:wght@700&family=Titan+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rowdies:wght@300&display=swap" rel="stylesheet">
-
+ <audio id="audio"  volume="100" autoplay class="music mb-0 ml-0 mt-1 col-12 col-md-12 ml-md-0 mr-0"> 
+                    <source src="musica/musica.mp3" type="audio/mpeg">
+            </audio>
     <script type='text/javascript'>
 $(document).ready(function(){ 
+    var audio = document.getElementById("audio");
+        audio.play();
     $(window).scroll(function(){ 
+
         if ($(this).scrollTop() > 100) { 
 
             $('#scroll').fadeIn();
-            var audio = document.getElementById("scroll");
-        scroll.play(); 
+           
 
         } else { 
             $('#scroll').fadeOut(); 
@@ -33,6 +37,7 @@ $(document).ready(function(){
         } 
     }); 
     $('#scroll').click(function(){ 
+
         $("html, body").animate({ scrollTop: 0 }, 600); 
         return false; 
     }); 
@@ -59,22 +64,22 @@ $(document).ready(function(){
 </script>
 <script>
     function PlayAudio(){
-         var audio = document.getElementById("audio");
+        var audio = document.getElementById("audio");
         audio.play();
     }
+         
 </script>
 
 <!--</////////////ESTA MERA PARA INVITACIONES////////////--->
- <audio id="audio" controls volume="100" autoplay class="music mb-0 ml-0 mt-1 col-12 col-md-12 ml-md-0 mr-0"> 
-                    <source src="musica/musica.mp3" type="audio/mpeg">
-            </audio>
+
 <script type="text/javascript">
     $(document).ready(function(){
         $(window).scroll(function(){ 
         var audio = document.getElementById("audio");
         audio.play();
         }); 
-    });
+
+    }); 
 </script>
 
 	<title>Monkys Dgo - Menú Digital</title>
@@ -85,7 +90,7 @@ $(document).ready(function(){
         </h1> 
     </div></body>-->
  
-<body translate="no" style="background-size: 100% 100%; background-image: url(img/fondoCuerpo.png)">
+<body onload="PlayAudio()" translate="no" style="background-size: 100% 100%; background-image: url(img/fondoCuerpo.png)">
 
         <video src="img/video.mp4" class="" width="100%" height="100%" autoplay muted playsinline loop poster="vistaprevia.jpg">
         Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
@@ -96,7 +101,7 @@ $(document).ready(function(){
     <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 </a> 
 
-	<section class="pie mt-0" id="pie">
+	<section class="pie" id="pie">
 		<div class="container">
 					
 
