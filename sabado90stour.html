@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gluten&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Paytone+One&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Archivo+Black&family=Candal&family=Fira+Sans+Extra+Condensed:wght@300&family=Fredoka+One&family=Lilita+One&family=Mitr:wght@300&family=Niconne&family=Oleo+Script+Swash+Caps:wght@700&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+
+            $('#scroll').fadeIn();
+            var audio = document.getElementById("scroll");
+        scroll.play(); 
+
+        } else { 
+            $('#scroll').fadeOut(); 
+
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+ $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+   
+});
+
+
+</script>
+<script>
+    function PlayAudio(){
+         var audio = document.getElementById("audio");
+        audio.play();
+    }
+</script>
+
+<!--</////////////ESTA MERA PARA INVITACIONES////////////--->
+ <audio id="audio" controls volume="100" autoplay class="music mb-0 ml-0 mt-1 col-12 col-md-12 ml-md-0 mr-0"> 
+                    <source src="musica/musica.mp3" type="audio/mpeg">
+            </audio>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(window).scroll(function(){ 
+        var audio = document.getElementById("audio");
+        audio.play();
+        }); 
+    });
+</script>
+
+	<title>Monkys Dgo - Menú Digital</title>
+	<link rel="shortcut icon" href="img/logo2.jpeg"/>
+</head><!--<body>
+    <div class="row justify-content-center">
+    <h1 class='desactivado col-11 text-center' ><li class='mr-1 far fa-times-circle'></li>DESACTIVADO TEMPORALMENTE<li class='ml-1 far fa-tired'></li>
+        </h1> 
+    </div></body>-->
+ 
+<body translate="no" style="background-size: 100% 100%; background-image: url(img/fondoCuerpo.png)">
+
+        <video src="img/video.mp4" class="" width="100%" height="100%" autoplay muted playsinline loop poster="vistaprevia.jpg">
+        Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+        La versión descargable está disponible en <a href="URL">Enlace</a>. 
+        </video>
+  
+        
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+</a> 
+
+	<section class="pie mt-0" id="pie">
+		<div class="container">
+					
+
+					<ul class="piepagina list-unstyled basic-info text-left">
+                        <br><br>
+                         <li><i class="fas fa-map-marker-alt"></i> Victoria de Durango, México</li>
+                        <li><i class="fab fa-facebook mb-5" ></i> Monkys Dgo </li>
+                            
+                    </ul>
+              </div>              
+	</section>
+
+  
+<div class="center justify-content-left">
+ <div id="social-test">
+ <div class="social">
+ <a href="https://www.facebook.com/MonkysDurango/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+ </div>
+ </div>
+</div>
+<div class="row justify-content-center mt-3" style="background-color: white">
+                  
+                <img class="col-6 col-lg-3 mb-3" src="img/logotipoConCodigo.png">  
+        </div>  
+   
+	<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</body>
+</html>
