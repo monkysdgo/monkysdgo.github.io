@@ -196,3 +196,33 @@ margin-bottom:;}
 #social-test a:hover{color:#fff;border:1px solid #ccc}
 .social:hover>a{opacity:.5}
 .social:hover>a:hover{opacity:1}
+
+.btnWhats{
+  text-decoration:none;
+  color:#000;
+  background-color: #01df4d;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #01df4d;
+  height: 45px;
+  font-size: 25px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnWhats:hover{
+  text-decoration:none;
+  background-color: transparent;
+  color: #000;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #01df4d;
+ 
+}

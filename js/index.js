@@ -1,6 +1,13 @@
 window.sr = ScrollReveal();
 
-	
+	 sr.reveal('.btnWhats', {
+    duration: 2500, //tiempo
+    delay:800,
+    origin: 'bottom', //origen
+    distance: '300px', //distancia
+    
+
+  }); 
 	sr.reveal('.menu', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
